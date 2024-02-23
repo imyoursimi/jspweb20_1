@@ -1,0 +1,56 @@
+package customer.vo;
+
+import java.util.Date;
+
+public class Notice {
+	
+	
+	//필드 첫글자를 대문자로 설정하면 안 됨***
+	
+	private String seq;
+	private String title;
+	private String writer;
+	private String content;
+	
+	private Date regdate;
+	private int hit;
+	
+	public String getSeq() {
+		return seq;
+	}
+	public void setSeq(String seq) {
+		this.seq = seq;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getWriter() {
+		return writer;
+	}
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public Date getRegdate() {
+		return regdate;
+	}
+	public void setRegdate(Date regdate) {
+		this.regdate = regdate;
+	}
+	public int getHit() {
+		return hit;
+	}
+	public void setHit(int hit) {
+		this.hit = hit;
+	}
+	
+
+}
